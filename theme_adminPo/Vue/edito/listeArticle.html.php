@@ -7,8 +7,6 @@
 
 
 
-
-
         <?php
         $i=1;
         foreach($all_editos as $i => $all_edito):
