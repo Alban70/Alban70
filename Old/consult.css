@@ -1,0 +1,487 @@
+#madiv{
+    background-color: yellow;
+    display: block;
+    font-style: italic;
+    color: red;
+	border= 1px;
+	cellspacing=1px;
+    width: 500px;
+    height: 600px;
+}
+
+#tableau
+{
+    font-style: italic;
+	border= 1px;
+	cellspacing=1px;
+}
+
+#para {
+    font-style: italic;
+    color: blue;
+}
+
+
+.logo_acceuil
+{
+	 float: left;
+	width: 250px;
+	height: 200px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+background-color: blue;
+}
+.imageflottante
+{
+    float: left;
+}
+.h
+{
+	background-color: yellow;
+	width: 600px;
+	margin: 5px 0px 0px 50px; /* signifie marge extérieur en haut, à droite, en bas, à gauche » */
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-style: italic;
+	font-weight: bold;
+	text-decoration: blink;
+	text-shadow: 6px 6px 6px black;
+	color: blue;
+	text-align: center;
+	border: 3px blue solid;
+	border-radius: 20px / 10px
+
+}
+#commentaire_password
+{
+	background-color: green;
+	width: 100%;
+	height: 800px;
+	padding: 0px 0px 0px 0px
+	margin: 0px 0px 0px 50px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+.pass
+{
+	float: left;
+	background-color: orange;
+	width: 40%;
+	height: 100%;
+	border: 3px blue solid;
+	border-radius: 20px / 10px
+	margin: 0px 0px 0px 50px; /* signifie marge en haut, à droite, en bas, à gauche » */
+	padding: 0px 0px 0px 0px
+}
+.comment
+{
+	float: left;
+	background-color: orange;
+	width: 40%;
+	height: 100%;
+	border: 3px blue solid;
+	border-radius: 20px / 10px
+	margin: 0px 0px 0px 50px; /* signifie marge en haut, à droite, en bas, à gauche » */
+	padding: 0px 0px 0px 0px
+}
+#intro
+{
+	float: left;
+	background-color: green;
+	padding: 0px 0px 0px 0px
+	width: 800px;
+	height: 380px;
+	margin: 0px 0px 0px 50px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+.intro1
+	{
+	background-color: orange;
+	width: 700px;
+	height: 250px;
+	margin: 5px 0px 5px 70px; /* signifie marge extérieur en haut, à droite, en bas, à gauche » */
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-style: italic;
+	font-weight: bold;
+	text-decoration: blink;
+	text-shadow: 6px 6px 6px black;
+	color: blue;
+	text-align: justify;
+	border: 3px blue solid;
+	border-radius: 20px / 10px
+}
+.mynav
+{
+	width: 800px;
+	height: 100px;
+	vertical-align: top;
+	margin: 30px 0px 0px 70px; /* signifie marge en haut, à droite, en bas, à gauche » */
+
+}
+.imageflottante2
+{
+    float: right;
+}
+.a
+{
+	float: right;
+	width: 70px;
+	height: 70px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+textarea
+{
+		width: 300px;
+	height: 100px;
+	
+}
+.dessous
+{	width: 200px;
+    clear: both;
+}
+
+p
+{
+    font-family: Arial,
+    font-size: 0.8em;
+	font-style: normal;
+	text-align justify center;
+}
+header, nav, .section_crm, .section_marketing, .element, footer {
+    background-color: #779977;
+}
+header
+{
+   width: 100%;
+	height: 380px;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+body
+{
+    background-color: rgb(250,96,204);
+	background-attachment: fixed:
+}
+footer
+{
+   width: 100%;
+	height: 380px;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+#conteneur
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border: 2px solid #444;
+}
+.element
+{
+	width: 300px;
+	height: 250px;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+.element:nth-child(1)
+{
+	background-color: #ad6;
+}
+.element:nth-child(2)
+{
+	background-color: orange;
+}
+.element:nth-child(3)
+{
+	background-color: blue;
+}
+.element:nth-child(4)
+{
+	background-color: black;
+}
+.element:nth-child(5)
+{
+	background-color: blue;
+}
+.element:nth-child(6)
+{
+	background-color: orange;
+}
+.element:nth-child(7)
+{
+	background-color: green;
+}
+.element:nth-child(8)
+{
+	background-color: blue;
+}
+.element:nth-child(9)
+{
+	background-color: black;
+}
+.element:nth-child(10)
+{
+	background-color: orange;
+}
+.element:nth-child(11)
+{
+	background-color: green;
+}
+.element:nth-child(12)
+{
+	background-color: orange;
+}
+.section_crm
+{
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+	vertical-align: top;
+}
+.section_marketing
+{
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+	vertical-align: top;
+	margin-left: 450px;
+	margin-top: 3px;
+}
+#section_tableau
+{
+	display: inline-block;
+	background-color: green;
+	color: blue;
+	vertical-align: center;
+	width: 100%;
+	height: 200px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+.my_td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+.my_table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+#tableau_complexe
+{
+	display: inline-block;
+	background-color: green;
+	width: 100%;
+	height: 200px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+#tableau_fusion_horizontale
+{
+	display: inline-block;
+	background-color: green;
+	width: 100%;
+	height: 200px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+#tableau_fusion_verticale
+{
+	display: inline-block;
+	background-color: green;
+	width: 100%;
+	height: 200px;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+.myButton_crm {
+	background-color:#44c767; /* signifie couleur de fond du block */
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29; /* signifie le type de de trait de bordure du block */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial; /* signifie le type de police intérieur du block */
+	font-size:25px; /* signifie la taille de police intérieur du block */
+	padding:16px 65px; /* signifie la marge intérieur du block */
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton_marketing {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton_gestion {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton_SAV {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+a:hover
+{
+color: green;
+border-left: 3px solid black;
+}
+
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.essai
+{
+	float: left;;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	vertical-align: top;
+	margin: 0px 0px 0px 5px; /* signifie marge en haut, à droite, en bas, à gauche » */
+}
+.myButton_essai {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton_essai:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+.myButton_essai:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton_demo {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton_demo:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+.myButton_demo:active {
+	position:relative;
+	top:1px;
+}
+.implementation_cm
+{
+	width: 800px;
+	height: 100px;
+	vertical-align: top;
+	margin: 30px 0px 0px 70px; /* signifie marge en haut, à droite, en bas, à gauche » */
+
+}
+.myButton_ajouter_cm {
+	background-color:#44c767; /* signifie couleur de fond du block */
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29; /* signifie le type de de trait de bordure du block */
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial; /* signifie le type de police intérieur du block */
+	font-size:25px; /* signifie la taille de police intérieur du block */
+	padding:16px 65px; /* signifie la marge intérieur du block */
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton_ajouter_cm:hover {
+	background-color:#5cbf2a;
+}
+.myButton_ajouter_cm:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,20 @@
+RewriteEngine on
+Options -MultiViews
+RewriteRule ^([a-zA-Z0-9]*)$ index.php?page=$1 [QSA]
+#RewriteRule ^(acceuil|societe|contactManager|vente|marketing|accompagnement|tarifs|contact) index.php?page=$1
+RewriteRule ^societe/([a-zA-Z0-9]*)$ index.php?page=societe&action=$1 [QSA]
+RewriteRule ^contact/([a-zA-Z0-9]*)$ index.php?page=contact&action=$1 [QSA]
+RewriteRule ^contactManager/([a-zA-Z0-9]*)$ index.php?page=contactManager&action=$1 [QSA]
+RewriteRule ^accompagnement/([a-zA-Z0-9]*)$ index.php?page=accompagnement&action=$1 [QSA]
+RewriteRule ^crm-services/([a-zA-Z0-9]*)$ index.php?page=crm-services&action=$1 [QSA]
+RewriteRule ^vente/([a-zA-Z0-9\-]*)$ index.php?page=vente&action=$1 [QSA]
+RewriteRule ^logiciel-crm/([a-zA-Z0-9\-]*)$ index.php?page=logiciel-crm&action=$1 [QSA]
+RewriteRule ^logiciel-force-de-vente/([a-zA-Z0-9\-]*)$ index.php?page=logiciel-force-de-vente&action=$1 [QSA]
+RewriteRule ^solution-crm/([a-zA-Z0-9\-]*)$ index.php?page=solution-crm&action=$1 [QSA]
+RewriteRule ^applications-crm/([a-zA-Z0-9\-]*)$ index.php?page=applications-crm&action=$1 [QSA]
+RewriteRule ^marketing/([a-zA-Z0-9\-]*)$ index.php?page=marketing&action=$1 [QSA]
+RewriteRule ^blog/([a-zA-Z0-9\-]*)$ index.php?page=blog&action=$1 [QSA]
+RewriteRule ^tarifs/([a-zA-Z0-9\-]*)$ index.php?page=tarifs&action=$1 [QSA]
+RewriteRule ^tarifsModules/([a-zA-Z0-9\-]*)$ index.php?page=tarifsModules&action=$1 [QSA]
+RewriteRule ^tarifs_essentiel/([a-zA-Z0-9\-]*)$ index.php?page=tarifs&action=$1 [QSA]
+RewriteRule ^test/([a-zA-Z0-9\-]*)$ index.php?page=test&action=$1 [QSA]
